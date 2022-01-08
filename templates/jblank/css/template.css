@@ -1,0 +1,55 @@
+/**
+ * J!Blank Template for Joomla by JBlank.pro (JBZoo.com)
+ *
+ * @package    JBlank
+ * @author     SmetDenis <admin@jbzoo.com>
+ * @copyright  Copyright (c) JBlank.pro
+ * @license    http://www.gnu.org/licenses/gpl.html GNU/GPL
+ * @link       http://jblank.pro/ JBlank project page
+ */
+/* just example of css import */
+
+/* just for test repaltive paths
+@import url('print.css');
+@import url('reset.css');
+*/
+
+/****************************************** FRONTEND STYLES ***********************************************************/
+@font-face{font-family:'Ambient';
+src:url('../fonts/Ambient-Regular.eot');
+src:url('../fonts/Ambient-Regular.eot') format('embedded-opentype'),
+url('../fonts/Ambient-Regular.woff') format('woff'),
+url('../fonts/Ambient-Regular.ttf') format('truetype'),
+url('../fonts/Ambient-Regular.svg') format('svg');
+font-weight:normal;
+font-style:normal;}
+@font-face{font-family:'Ambient';
+src:url('../fonts/Ambient-Bold.eot');
+src:url('../fonts/Ambient-Bold.eot') format('embedded-opentype'),
+url('../fonts/Ambient-Bold.woff') format('woff'),
+url('../fonts/Ambient-Bold.ttf') format('truetype'),
+url('../fonts/Ambient-Bold.svg') format('svg');
+font-weight:bold;
+font-style:normal;}
+/* classic clearfix */
+.clearfix {
+    display: block;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.url-path-test {
+    background: url('../images/test.png');
+}
+

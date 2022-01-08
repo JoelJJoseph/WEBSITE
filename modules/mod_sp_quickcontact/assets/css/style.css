@@ -1,0 +1,11 @@
+textarea#message{width:150px;height:80px}
+p.sp_qc_loading{background:url(../images/ajax-loader.gif) no-repeat 0 50%;padding:0;width:16px;height:16px;float:none;display:inline-block;margin:5px 0px 5px -8px;position:absolute;left:50%;}
+p.sp_qc_warn{color:red;font-size:6px;}
+p.sp_qc_success{color:#9F2E2E;font-weight:bold;position:absolute;font-size:6px !important;bottom:-20px;background:#ffe9e9;z-index: 12;padding: 5em 10em;transition:all .5s; box-shadow:0 40px 35px -30px rgba(0,0,0,0.5);transform:translateZ(100px)}
+.sp_qc_error{border:1px solid #e20000}
+.sp_qc_error:focus{border:1px solid red}
+.sp_qc_clr{clear:both;margin-bottom:15px}
+#sp-quickcontact-form input, #sp-quickcontact-form textarea{    background: #ffe9e9;color:#9F2E2E;padding:10px;font-size:11px;width:100%;border:none;transition: transform 550ms ease, -webkit-transform 550ms ease;outline: none;letter-spacing: 1px;}
+#sp-quickcontact-form textarea{height:98px; transition: transform 350ms ease, -webkit-transform 350ms ease;}
+#sp-quickcontact-form #sp_qc_submit{font-weight:bold;background:#9F2E2E;color:#ffe9e9;outline:none;padding: 15px;margin-top: 1px;}
+#sp-quickcontact-form h2{ font-weight:normal;    letter-spacing: 2px;color:#ffe9e9;}
